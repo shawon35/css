@@ -1,0 +1,33 @@
+body{
+background-color: rgb(182, 202, 212);
+}
+.nav-menu{
+    width:550px;
+    height:80px;
+    margin: 40px auto;
+    border-width:5px 5px 0px 5px;
+    border-style:outset;
+    border-radius: 0px 0px 20px 20px;
+    border-color: rgb(219, 48, 176);
+    background-image:linear-gradient(to top,rgb(241, 203, 157) ,rgb(83, 54, 247 )) ;
+    box-shadow: 4px 6px 7px rgba(164, 80, 241, 0.829);
+  
+}
+.nav-menu ul{
+}
+.nav-menu ul li{
+    list-style-type: none;
+    margin:10px 10px 5px 20px;
+    float: left;
+}
+.nav-menu ul li a{
+    text-decoration:none;
+    font-size:25px;
+    color:rgba(157, 241, 209, 0.774);
+    font-family:Bebas Neue;
+    font-weight: bolder;
+}
+.nav-menu ul li a:hover{text-decoration: underline;
+    color:black;
+font-size: 28px;
+}
